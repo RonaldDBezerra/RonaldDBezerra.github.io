@@ -1,0 +1,100 @@
+body {
+  background-image: url('./pen-calendar-to-do-checklist.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center center; */
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+#funcionamento {
+  opacity: 60%;
+}
+
+#remover-selecionado {
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: whitesmoke;
+  border: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: maroon;
+  cursor: pointer;
+}
+
+#criar-tarefa {
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: whitesmoke;
+  border: rgb( 41 98 223 );
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb( 41 98 223 );
+  cursor: pointer;
+}
+
+#apaga-tudo {
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: whitesmoke;
+  border: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: maroon;
+  cursor: pointer;
+}
+
+#remover-finalizados {
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: whitesmoke;
+  border: rgb( 41 98 223 );
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb( 41 98 223 );
+  cursor: pointer;
+}
+
+#salvar-tarefas {
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: whitesmoke;
+  border: rgb( 41 98 223 );
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: green;
+  cursor: pointer;
+}
+
+#content-item {
+  background-color: whitesmoke;
+  width: 750px;
+  margin: 50px;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+#para-cima {
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: whitesmoke;
+  border: rgb( 41 98 223 );
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(204 61 8);
+  cursor: pointer;
+}
+
+#para-baixo {
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: whitesmoke;
+  border: rgb( 41 98 223 );
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(204 61 8);
+  cursor: pointer;
+}
+
+.selected {
+  background-color: rgb(175 165 165);
+}
+
+.completed {
+  text-decoration: line-through;
+}

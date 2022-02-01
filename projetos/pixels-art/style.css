@@ -1,0 +1,65 @@
+body {
+    background-image: url('https://www.oficinadanet.com.br/imagens/post/15181/minecraft-2020.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#titulo {
+background-color:floralwhite;
+border-radius: 50px;
+}
+
+h1 {
+  margin-left: 570px;
+  color:black;
+}
+#color-palette {
+  padding-top: 3px;
+  margin-left: 543px;
+}
+
+.color {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+#pixel-board {
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+.base {
+    width: 394px;
+    height: 72px;
+    padding: 3px;
+
+}
+
+.pixel {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#clear-board {
+    margin: 20px;
+    padding: 5px;
+    cursor: pointer;
+    /* color:seashell; */
+    display: block;
+    margin-left: 653px;
+    background-color: chartreuse;
+    border-bottom-style: groove;
+    border-radius: 50px;
+}

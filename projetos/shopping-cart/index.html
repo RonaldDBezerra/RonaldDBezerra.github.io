@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <section id="container-search">
+      <input type="text" id="search" aria-label="Digite o que você quer encontrar" name="as_word" placeholder="Buscar produtos, marcas e muito mais…" maxlength="120" autofocus="" autocapitalize="off" autocorrect="off" spellcheck="false" autocomplete="off" tabindex="2">
+      <input type="button" id="button" value="Procurar">
+    </section>
+    <section class="container-section">
+      <section class="items"></section>
+      <section class="cart">
+        <span class="cart__title">Carrinho de compras</span>
+        <button class="empty-cart">Esvaziar carrinho</button>
+        <span id="span-content">Preço total:<span class="total-price"></span></span>
+        <ol class="cart__items"></ol>
+      </section>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,181 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+  body{
+    padding-top: 0px;
+}
+#content-header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    align-items: center;
+    background-color: rgb(87, 84, 84);
+
+    position:static;
+}
+
+#content-header nav{
+    display: none;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(58, 201, 211);
+}
+
+#span-Imagem img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    order: 1;
+  }
+
+#content-section-of-main {
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    order: 2;
+}
+
+#content-section-of-main h1 {
+    font-family:'Mulish', sans-serif;;
+    font-size: 27px;
+    color: rgb(22, 22, 22);
+    opacity: 95%;
+  }
+
+#content-section-of-main h2 {
+    font-size: 17px;
+    color: rgb(22, 22, 22);
+    opacity: 97%;
+  }
+
+  #span-liks div {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 150px;
+  }
+
+  #content-project div {
+    width: 300px;
+    text-align: justify;
+  } 
+
+  .project{
+      flex-direction: column;
+    }
+
+    .test {
+      flex-direction: column-reverse;
+    }
+
+  .project p{
+    margin-top: 25px;
+    font-size: 15px;
+  }
+
+  .project #pixel-art{
+      margin-top: 30px;
+      width: 250px;
+      height: 250px;
+    }
+
+    .project #todo-list{
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    }
+
+    .project #trybeWarts{
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    }
+
+    .project #shopping-cart{
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    }
+
+    #content-footer{
+    margin-top: 50px;
+}
+
+.project #pixel-art:hover{
+    width: 250px;
+    height: 250px;
+    transition: none;
+}
+
+.project #todo-list:hover{
+    width: 250px;
+    height: 250px;
+    transition: none;
+}
+
+.project #trybeWarts:hover{
+    width: 250px;
+    height: 250px;
+    transition: none;
+}
+
+.project #shopping-cart:hover{
+    width: 250px;
+    height: 250px;
+    transition: none;
+ }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+#span-Imagem img {
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+    }
+
+#content-section-of-main h1 {
+    font-size: 40px;
+    }
+
+#content-section-of-main h2 {
+    font-size: 20px;
+    }
+
+#span-liks div {
+    height: 50px;
+      }
+
+.project #pixel-art{
+    height: 300px;
+    width: 300px;
+}
+
+.project #todo-list{
+    height: 300px;
+    width: 300px;
+}
+
+.project #trybeWarts{
+    height: 300px;
+    width: 300px;
+}
+
+.project #shopping-cart{
+    height: 300px;
+    width: 300px;
+}
+
+.project p{
+    font-size: 14px;
+  }
+}
